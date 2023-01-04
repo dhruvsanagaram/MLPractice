@@ -67,3 +67,4 @@ def backtest(data,model,predictors,start=1000,step=750):
 predictions = backtest(data,model,predictors)
 print(predictions["Predictions"].value_counts())
 print(precision_score(predictions["Target"], predictions["Predictions"]))
+print("Hello")
